@@ -1,6 +1,8 @@
-import openpyxl
-openai.api_key = "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"
+import os
+import openai
 openai.organization = "org-qSXSOLMnXwIPow1jsuaglgEo"
+openai.api_key = os.getenv("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")
+openai.Model.list()
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import googleSerp as gs
