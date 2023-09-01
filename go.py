@@ -133,7 +133,7 @@ Please keep this information in mind and generate a prompt about  """ + input}
     promptGenerated = completion.choices[0].message.content
 
     # connect to stable diffusion API
-    url = 'https://stablediffusionapi.com/api/v3/text2img'
+    url = 'fIVRTDS7kaAln1YwSegu93mF03VHcNfVUFJRdWMITdeinQWvHBuMBvihFP28'
 
     data = {
         "key": "RXXXXXX",
