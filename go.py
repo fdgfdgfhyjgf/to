@@ -1,4 +1,4 @@
-import openai
+
 openai.api_key = "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"
 openai.organization = "org-qSXSOLMnXwIPow1jsuaglgEo"
 from urllib.request import urlopen
