@@ -1,4 +1,8 @@
+import os
 import openai
+openai.api_key = os.getenv("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")
+audio_file = open("audio.mp3", "rb")
+transcript = openai.Audio.transcribe("whisper-1", audio_file)
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import googleSerp as gs
