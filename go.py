@@ -1,5 +1,5 @@
 import openai
-openai.api_key = "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"
+openai.api_key = "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"
 openai.organization = "org-qSXSOLMnXwIPow1jsuaglgEo"
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
@@ -8,6 +8,21 @@ import html2text
 import requests
 import json
 import streamlit as st
+import streamlit as st
+import openai
+from urllib.request import urlopen
+from bs4 import BeautifulSoup
+import googleSerp as gs
+import html2text
+import requests
+import json
+
+# Set your OpenAI API key and organization
+openai.api_key = "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"
+openai.organization = "org-qSXSOLMnXwIPow1jsuaglgEo"
+
+# Now you can use the 'openai' library and other imported modules
+# within your Streamlit app as needed
 
 
 def BitcoinPriceAnalysis():
@@ -190,4 +205,4 @@ if st.button('go'):
 
 
 #print(GenerateImages("child flying in the sky"))
-
+import openpyxl
